@@ -10,7 +10,7 @@ body {
     padding-top: 50px;
     padding-left: 140px;
     padding-right: 140px;
-    padding-bottom: 124px;
+    /* padding-bottom: 124px; */
 
 }
 
@@ -21,74 +21,90 @@ body {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00)100%), url('banner1.png');
     background-repeat: no-repeat;
 
+/* padding: 50px 140px 124px 140px; */
 
 }
 
-.wish {
+.uppersection .wish {
     color: white;
     font-size: 32px;
     font-weight: 400;
-    padding: 177px 531px 383px 530px;
-    text-align: center;
+    padding-left: 530px;
+    padding-top: 177px;
+    /* text-align: center; */
 
 }
 
 .uppersection .nyear {
+
     width: 632px;
     height: 190px;
-    color: rgb(203, 95, 95);
+    color: white;
+    font-family: Merriweather;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
+    padding-left: 344px;
     text-align: center;
 }
 
 main {
     max-width: 1320px;
-    margin: 140px;
+    margin-left: 140px;
 }
 
 .offer {
+    
     margin: 140px;
-    text-align: center;
+    
     font-family: Inter;
     font-style: normal;
     line-height: normal;
 }
 
 .off {
+   
     width: 383px;
     height: 107px;
     color: #F00;
     font-size: 88px;
     font-weight: 700;
-    /* margin:770px 609px  100px 609px; */
+    margin-top: 0px;
+    margin-left: 430px;
+    margin-bottom: 20px;
 
 }
 
 .text-off {
+   
     width: 397px;
     height: 29px;
     color: #F00;
     font-size: 24px;
     font-weight: 500;
-    /* margin:925px 602px  30px 602px; */
+    margin-left: 425px;
+    margin-bottom: 20px;
+    
 }
 
 .text-categ {
+
     width: 410px;
     height: 58px;
     color: #070211;
     font-size: 48px;
     font-weight: 700;
-    /* margin:910px 595px  100px 595px; */
+    margin-left: 425px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    
 }
 
 .newphoto {
     width: 802.9px;
     height: 500px;
-    /* margin: 1076px 398px 5759px 398px; */
     margin-bottom: 140px;
+    margin-left: 150px;
 }
 
 .welcome {
@@ -251,7 +267,7 @@ main {
 .fictional {
     margin-top: 140px;
     width: 1600px;
-    height: 7335px;
+    height: 2000px;
 }
 
 .fictional .what {
@@ -287,27 +303,284 @@ main {
 
 }
 
-/* .rectangle{
+
+.img2 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+.rectangle {
+    position: relative;
     width: 1320px;
     height: 229px;
     margin-top: 700px;
-} */
-.img2{
-    display: flex;
-}
- .boxes {
-    width: 430px;
-    height: 543px;
-    margin-left: 80px;
-    margin-top: 64px;
 }
 
- .giftgirl {
+.boxes {
+    position: absolute;
+    width: 700px;
+    height: 600px;
+    left: 140px;
+    top: 4630px;
+}
+
+.giftgirl {
+    position: absolute;
     width: 429px;
     height: 433px;
+    margin-left: 891px;
+    top: 4630px;
+
+
+}
+
+.discount {
+    position: absolute;
+    width: 240px;
+    height: 240px;
+    top: 4775px;
+    left: 915px;
+
+}
+
+.portfolio {
+    width: 1600px;
+    height: 2000px;
+    margin: 0px;
+    padding: opx;
+
+}
+
+#p1 {
+    left: 140px;
+    width: 192px;
+    height: 29px;
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#p2 {
+    left: 140px;
+    width: 566px;
+    height: 60px;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+#p3 {
+    left: 140px;
+    width: 896px;
+    height: 64px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.img-section {
+    margin-top: 50px;
+
+}
+
+.img-section ul {
+    display: flex;
+    gap: 24px;
+
+}
+
+.img-section ul li {
+    list-style: none;
+    gap: 24px;
+}
+
+.second-last {
+    width: 1320px;
+    height: 616px;
     flex-shrink: 0;
-    border-radius: 16px 16px 0px 0px;
-    padding-left: 891px;
-    padding-right: 140px ;
-    
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.05);
+    position: relative;
+
+}
+
+.mail-img {
+
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    padding-top: 80px;
+    padding-left: 585px;
+}
+
+.sclass {
+    position: absolute;
+    width: 512px;
+    height: 60px;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    padding-top: 250px;
+    padding-left: 404px;
+}
+
+.s-l-class {
+    position: absolute;
+    padding-left: 212px;
+    padding-top: 350px;
+    width: 896px;
+    height: 64px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.one-place {
+    position: relative;
+}
+
+.input {
+    position: absolute;
+    margin-left: 336px;
+    margin-top: 455px;
+    width: 648px;
+    height: 55px;
+    border-radius: 50px;
+    border: 0;
+    padding-left: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.input::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    width: 250px;
+    height: 30px;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.stl {
+    width: 98px;
+    height: 24px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-s {
+    position: absolute;
+    width: 210px;
+    height: 105px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    margin-top: 455px;
+    margin-left: 806px;
+    border: 0;
+}
+
+.footer {
+    background-color: black;
+    width: 1600px;
+    height: 609px;
+    margin-top: 140px;
+    padding-top: 70px;
+}
+
+.footer .text-pera {
+    width: 375px;
+    height: 80px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+
+    padding-left: 140px;
+}
+
+.footer-img {
+    color: white;
+    margin-left: 1074px;
+
+
+}
+
+.footer-img ul {
+    display: flex;
+    gap: 30px;
+
+}
+
+.footer-img ul li {
+    list-style: none;
+    display: flex;
+
+}
+
+#number {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+
+#link1 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.hr {
+    width: 1320px;
+    height: 1.5px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 0;
+}
+
+
+nav ul {
+    display: flex;
+    gap: 24px;
+    padding-left: 640px;
+    padding-top: 20px;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+.copyright {
+    color: white;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.last1 {
+    margin-left: 140px;
+
+}
+
+.last2 {
+    margin-left: 1315px;
+
 }
